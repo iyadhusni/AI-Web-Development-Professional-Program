@@ -18,6 +18,23 @@ By the end of this session, learners will be able to:
 
 ---
 
+## HTML Basics for Beginners
+
+- **What is HTML?** HTML stands for HyperText Markup Language. It is the standard language used to structure the content of a web page, such as headings, paragraphs, images, links, and sections.
+- **What is a tag or element?** HTML uses tags like `<h1>`, `<p>`, and `<img>` to tell the browser what each piece of content is. An element is the full piece of HTML, including the opening tag, content, and closing tag when applicable.
+- **What is an attribute?** Attributes add extra information to an element. For example, `href` tells a link where to go, `src` tells an image which file to show, and `alt` describes the image for accessibility.
+- **What is a hyperlink?** A hyperlink is a clickable link that takes the user to another page, file, section, or website. In HTML, links are created with the `<a>` tag.
+- **What is an image in HTML?** Images are added with the `<img>` tag. Good HTML always includes `alt` text so screen readers and users with missing images still understand the content.
+- **What is semantic HTML?** Semantic HTML uses meaningful elements such as `<header>`, `<main>`, `<section>`, and `<footer>` so the page structure is clearer for browsers, developers, search engines, and assistive technologies.
+
+### How to View HTML Source in the Browser
+
+- Right-click on most web pages and choose **View Page Source** to see the original HTML sent by the server.
+- You can also press `Ctrl+U` on Windows/Linux or `Cmd+Option+U` on macOS in many browsers.
+- To inspect the live structure of a page, use **Inspect** or **Developer Tools**. This shows the HTML as it appears in the browser after scripts and styles are applied.
+
+---
+
 ## Agenda (120 min)
 
 | Time | Activity | Description |
@@ -64,6 +81,13 @@ By the end of this session, learners will be able to:
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="[Name] — Web Developer">
 ```
+
+- `charset="UTF-8"` ensures the page displays text characters correctly.
+- `viewport` makes the page scale properly on mobile devices.
+- `description` provides a summary for search engines and link previews.
+- `author` identifies the page creator.
+- Open Graph tags control how the page appears when shared on social platforms.
+- Twitter Card tags improve how the page is previewed on X/Twitter.
 
 ### Accessibility Basics
 ```html
@@ -127,6 +151,39 @@ By the end of this session, learners will be able to:
 4. Wrap sections in semantic HTML5 elements (`<header>`, `<main>`, `<section>`, `<footer>`)
 5. Add navigation links between sections
 
+### AI Prompt to Build From Scratch
+
+**Web Assistant:** Use this prompt to generate the first version:
+
+```
+Create a complete HTML personal bio page from scratch.
+
+Requirements:
+1. Use semantic HTML5 elements such as <header>, <nav>, <main>, <section>, <article>, <figure>, and <footer> where appropriate
+2. Add a page title plus essential <meta> tags including charset, viewport, description, and author
+3. Include a short bio, skills list, contact section, and links to social profiles
+4. Add a profile image with descriptive alt text
+5. Use clear heading hierarchy starting with one <h1>
+6. Include basic accessibility features such as lang="en", a skip link, and an aria-label on the main navigation
+
+Return only the HTML code.
+```
+
+**CLI / IDE Agent:** Run from your project directory:
+
+```
+Create an accessible personal bio page in index.html from scratch.
+
+Requirements:
+1. Use semantic HTML5 structure
+2. Add essential <meta> tags including charset, viewport, description, and author
+3. Include navigation, a short bio, a skills list, a projects or interests section, and contact links
+4. Add a profile image with descriptive alt text
+5. Add accessibility features including lang="en", a skip link, one <h1>, and an aria-label on navigation
+
+Show me the final HTML and explain the structure briefly.
+```
+
 ### AI Prompt to Improve
 
 **Web Assistant:** Paste your HTML into the chat:
@@ -136,9 +193,9 @@ Here is my HTML bio page. Please:
 1. Convert this basic bio page into a semantic HTML5 structure
 2. Add proper <meta> tags for SEO and social sharing
 3. Improve the heading hierarchy
-4. Add ARIA landmarks where appropriate
+4. Add accessibility features such as a skip link, labelled navigation, and clear landmark structure
 5. Add alt text to any images
-6. Make sure the page is accessible
+6. Make sure the page is accessible and explain the accessibility improvements
 
 [Paste your HTML here]
 ```
@@ -150,9 +207,9 @@ Read index.html in this project. Improve it by:
 1. Converting this basic bio page into a semantic HTML5 structure
 2. Adding proper <meta> tags for SEO and social sharing
 3. Improving the heading hierarchy
-4. Adding ARIA landmarks where appropriate
+4. Adding accessibility features such as a skip link, labelled navigation, and clear landmark structure
 5. Adding alt text to any images
-6. Making sure the page is accessible
+6. Making sure the page is accessible and explaining the accessibility improvements
 Show me the diff of changes.
 ```
 
