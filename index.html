@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Accessible personal bio page featuring background, skills, interests, and contact information.">
+    <meta name="author" content="Alex Morgan">
+    <meta name="keywords" content="personal bio, web developer, accessibility, HTML5, portfolio">
+    <meta property="og:title" content="Alex Morgan | Personal Bio">
+    <meta property="og:description" content="Learn more about Alex Morgan, including skills, interests, and contact links.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/alex-morgan">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="Iyad Huni | Personal Bio">
+    <meta property="twitter:description" content="Learn more about Alex Morgan, including skills, interests, and contact links.">
+    <title>Alex Morgan | Personal Bio</title>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <article>
+        <section id="about" aria-labelledby="profile-title">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'%3E%3Crect width='240' height='240' rx='24' fill='%230f172a'/%3E%3Ccircle cx='120' cy='95' r='50' fill='%23f8fafc'/%3E%3Cpath d='M55 200c12-40 44-60 65-60s53 20 65 60' fill='%23f8fafc'/%3E%3C/svg%3E"
+            alt="Portrait illustration of Alex Morgan"
+            width="240"
+            height="240"
+          >
+          <h1 id="profile-title">Hello, I’m Alex Morgan</h1>
+          <p>I am a web developer who enjoys building clear, inclusive, and user-friendly digital experiences.</p>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-title">
+          <h2 id="skills-title">Skills</h2>
+          <h3>Technical strengths</h3>
+          <ul>
+            <li>HTML5 and semantic structure</li>
+            <li>CSS and responsive design</li>
+            <li>Accessibility best practices</li>
+            <li>JavaScript fundamentals</li>
+          </ul>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-title">
+          <h2 id="projects-title">Projects and Interests</h2>
+          <h3>Current focus</h3>
+          <p>I enjoy creating small web projects, learning new front-end tools, and improving accessibility in everyday interfaces.</p>
+        </section>
+      </article>
+
+      <aside>
+        <section id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">Contact</h2>
+          <h3>Get in touch</h3>
+          <ul>
+            <li><a href="mailto:alex@example.com">Email</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <p>© 2026 Alex Morgan</p>
+    </footer>
+  </body>
+</html>
