@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; display: grid; place-items: center; min-height: 100vh; background: #f0f4f8; }
+    .card { background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 90%; max-width: 400px; }
+    h1 { font-size: 1.5rem; margin-bottom: 1rem; text-align: center; }
+    input, button { width: 100%; padding: 0.6rem; margin: 0.3rem 0; border-radius: 0.5rem; border: 1px solid #ccc; }
+    button { background: #3b82f6; color: white; font-weight: 600; cursor: pointer; border: none; }
+    button:hover { background: #2563eb; }
+    .weather-result { margin-top: 1rem; text-align: center; }
+    .weather-result img { width: 80px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Weather Check</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button id="searchBtn">Get Weather</button>
+    <div class="weather-result" id="weatherResult"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@
 ## Sessions
 
 - [01 — Orientation & AI Tools Deep Dive](./01-orientation-ai-tools/README.md) — Sat 27 Jun, 3 hrs, Dr Iyad
-- [02 — HTML Fundamentals](./02-html-fundamentals/README.md) — Wed 1 Jul, 2 hrs, Dr Motaz
+- [02 — HTML Fundamentals](./02-html-fundamentals/README.md) — Wed 1 Jul, 2 hrs, Dr Iyad
 
 ## Projects
 

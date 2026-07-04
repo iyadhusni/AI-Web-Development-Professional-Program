@@ -5,7 +5,7 @@
 | Week | Day | Date | Duration | Session Topic | Instructor |
 |---|---|---|---|---|---|---|
 | 1 | Saturday | 27 June 2026 | 3 hrs | [Orientation & AI Tools Deep Dive](../weeks/week-01/01-orientation-ai-tools/README.md) | Dr Iyad |
-| 1 | Wednesday | 1 July 2026 | 2 hrs | [HTML Fundamentals](../weeks/week-01/02-html-fundamentals/README.md) | Dr Motaz |
+| 1 | Wednesday | 1 July 2026 | 2 hrs | [HTML Fundamentals](../weeks/week-01/02-html-fundamentals/README.md) | Dr Iyad |
 | 2 | Saturday | 4 July 2026 | 3 hrs | [CSS Basics & AI Styling](../weeks/week-02/01-css-basics-ai-styling/README.md) | Dr Iyad |
 | 2 | Wednesday | 8 July 2026 | 2 hrs | [Layout with Flexbox & Grid](../weeks/week-02/02-layout-flexbox-grid/README.md) | Dr Iyad |
 | 3 | Saturday | 11 July 2026 | 3 hrs | [JavaScript Fundamentals I](../weeks/week-03/01-javascript-fundamentals-i/README.md) | Dr Iyad |

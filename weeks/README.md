@@ -29,7 +29,7 @@ Each week folder contains:
 
 - **Saturday sessions** — 3 hours, deeper dives with hands-on building
 - **Wednesday sessions** — 2 hours, focused topics and practice
-- **Instructors:** Dr Iyad (38 hrs, sessions 1–2 / weeks 1–9, 10–11) · Dr Motaz (17 hrs, sessions 3–4 / weeks 5–8, 10)
+- **Instructors:** Dr Iyad (40 hrs) · Dr Motaz (15 hrs) — see the schedule table for exact per-session assignments
 
 ## Starter Projects
 

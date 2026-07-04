@@ -25,8 +25,8 @@
 
 | Instructor | Hours | Topics |
 |------------|-------|--------|
-| **Dr Iyad** | **31 hrs** | AI Tools, CSS, Flexbox & Grid, JavaScript, Advanced Styling, Portfolio |
-| **Dr Motaz** | **24 hrs** | HTML, Git & Deployment, Clone Challenges, Accessibility, Exam Prep, Career Prep |
+| **Dr Iyad** | **40 hrs** | AI Tools, HTML, CSS, Flexbox & Grid, JavaScript, Advanced Styling, Portfolio, Final Review, Exam Prep, Career Prep |
+| **Dr Motaz** | **15 hrs** | Git & Deployment, Clone Challenges, Accessibility |
 | **Total** | **55 hrs** | 11 weeks × 5 hrs/week |
 
 ## Evaluation
@@ -41,6 +41,7 @@
   - [`schedule-table.md`](./schedule/schedule-table.md) / `schedule-table.xlsx` — Raw session schedule table
 - [`weeks/`](./weeks/) — Session plans, lesson materials, and resources for all 11 weeks
   - [`weeks/README.md`](./weeks/README.md) — Overview with clickable session table
+- [`share-with-students/`](./share-with-students/) — Student-facing copy of weekly materials; update this folder each week when publishing or refreshing content for learners
 - [`tools-reference.md`](./tools-reference.md) — Curated AI tools reference for each session
 
 ## Getting Started

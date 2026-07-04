@@ -2,7 +2,7 @@
 
 **Date:** Wednesday, 1 July 2026  
 **Duration:** 2 hours  
-**Instructor:** Dr Motaz  
+**Instructor:** Dr Iyad  
 **Format:** Hands-on coding workshop
 
 ---
@@ -425,4 +425,4 @@ Read index.html and check for: unclosed tags, duplicate IDs, improper nesting, a
 - [Open Graph Protocol](https://ogp.me/)
 - [WebAIM: Alt Text Guide](https://webaim.org/techniques/alttext/)
 - [A11y Project Checklist](https://www.a11yproject.com/checklist/)
-- [tools-reference.md](../../tools-reference.md)
+- [tools-reference.md](../../../tools-reference.md)

@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Acadima College//AI Web Development Professional Program//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI Web Development - Dr Motaz
+X-WR-TIMEZONE:Asia/Riyadh
+BEGIN:VTIMEZONE
+TZID:Asia/Riyadh
+X-LIC-LOCATION:Asia/Riyadh
+BEGIN:STANDARD
+DTSTART:19810101T000000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:AST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Riyadh:20260729T190000
+DTEND;TZID=Asia/Riyadh:20260729T210000
+SUMMARY:Version Control & Deployment I
+DESCRIPTION:Session with Dr Motaz\nPart of the AI Web Development Professional Program at Acadima College
+LOCATION:Acadima College
+SEQUENCE:0
+UID:motaz-20260729@acadimacollege.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Riyadh:20260801T160000
+DTEND;TZID=Asia/Riyadh:20260801T190000
+SUMMARY:Version Control & Deployment II
+DESCRIPTION:Session with Dr Motaz\nPart of the AI Web Development Professional Program at Acadima College
+LOCATION:Acadima College
+SEQUENCE:0
+UID:motaz-20260801@acadimacollege.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Riyadh:20260812T190000
+DTEND;TZID=Asia/Riyadh:20260812T210000
+SUMMARY:Clone Challenge I
+DESCRIPTION:Session with Dr Motaz\nPart of the AI Web Development Professional Program at Acadima College
+LOCATION:Acadima College
+SEQUENCE:0
+UID:motaz-20260812@acadimacollege.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Riyadh:20260815T160000
+DTEND;TZID=Asia/Riyadh:20260815T190000
+SUMMARY:Clone Challenge II
+DESCRIPTION:Session with Dr Motaz\nPart of the AI Web Development Professional Program at Acadima College
+LOCATION:Acadima College
+SEQUENCE:0
+UID:motaz-20260815@acadimacollege.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Riyadh:20260819T190000
+DTEND;TZID=Asia/Riyadh:20260819T210000
+SUMMARY:Clone Challenge III
+DESCRIPTION:Session with Dr Motaz\nPart of the AI Web Development Professional Program at Acadima College
+LOCATION:Acadima College
+SEQUENCE:0
+UID:motaz-20260819@acadimacollege.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Riyadh:20260829T160000
+DTEND;TZID=Asia/Riyadh:20260829T190000
+SUMMARY:Accessibility Standards
+DESCRIPTION:Session with Dr Motaz\nPart of the AI Web Development Professional Program at Acadima College
+LOCATION:Acadima College
+SEQUENCE:0
+UID:motaz-20260829@acadimacollege.com
+END:VEVENT
+
+END:VCALENDAR
